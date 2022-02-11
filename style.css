@@ -8,12 +8,23 @@ body {
     font-family: 'rubik', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+i {
+    font-family: none;
+}
+
 nav {
     background-color: #D19912;
     display: flex;
     height: 50px;
     align-items: center;
     width: 100%;
+    z-index: 100;
+    box-shadow: 0px 40px 0px #AE8E1D;
 }
 
 nav ul {
@@ -44,4 +55,185 @@ nav ul i {
     height: 10px;
     font-family: none;
     margin-left: 35px;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #B71A69;
+    margin-top: 5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 50px 0px #A01B5A;
+}
+
+header hr {
+    position: relative;
+    top: -16px;
+    width: 40%;
+    background-color: #841B44;
+    height: 2px;
+    margin: auto;
+    border-color: #841B44;
+}
+
+.header {
+    display: flex;
+    position: absolute;
+}
+
+.header i {
+    font-size: 40px;
+    position: relative;
+    left: -15px;
+}
+
+.dias,
+.horas,
+.minutos {
+    margin-right: 30px;
+}
+
+.dias h2,
+.horas h2,
+.minutos h2,
+.segundos h2 {
+    font-size: 15px;
+    color: #7E2045;
+}
+
+.dias h1,
+.horas h1,
+.minutos h1,
+.segundos h1 {
+    font-size: 3em;
+}
+
+.inscri-segundo {
+    background-color: #154A6C;
+    position: relative;
+    top: 75px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 0px rgba(21, 74, 108, 0.5)
+}
+
+.inscri-segundo h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #206890;
+}
+
+.hrtwo {
+    position: relative;
+    top: 70px;
+    width: 40%;
+    background-color: #841B44;
+    height: 2px;
+    margin: auto;
+    border-color: #841B44;
+}
+
+.content-fist {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.text-picture {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.text-picture div {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.text-picture div h2 {
+    color: #3090B6;
+    font-size: 20px
+}
+
+.text-picture div h1 {
+    color: #114B70;
+    font-size: 30px;
+}
+
+.text-picture div hr {
+    margin-top: 5px;
+    width: 110%;
+    height: 2px;
+    background-color: #63AECD;
+    color: #63AECD;
+    border: none;
+}
+
+.content-fist-important {
+    font-size: 40px;
+}
+
+.text-picture div h6 {
+    margin-top: 5px;
+    color: #343434;
+    font-size: 15px;
+}
+
+.text-picture i {
+    content: '';
+    width: 30px;
+    height: 10px;
+    display: block;
+    background-color: #BD253E;
+    position: relative;
+    top: 170px;
+    left: -57.5%;
+    box-shadow: 30px 0px 0px #B68038, 60px 0px 0px #4B8145, 90px 0px 0px #A0242F, 120px 0px 0px #BF402D, 150px 0px 0px #3192BC, 180px 0px 0px #D19912, 210px 0px 0px #7F1D44, 240px 0px 0px #C56A31, 270px 0px 0px #B71A69, 300px 0px 0px #CD7F2A, 330px 0px 0px #96802B, 360px 0px 0px #437F49, 390px 0px 0px #2181AB, 420px 0px 0px #5F884C, 450px 0px 0px #156C80, 480px 0px 0px #154A6C, 510px 0px 0px #BD253E, 540px 0px 0px #B68038, 570px 0px 0px #4B8145, 600px 0px 0px #A0242F;
+    border: none;
+}
+
+.secondary-content {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr3 {
+    width: 15%;
+    height: 5px;
+    border: none;
+    background-color: #2C86BB;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.secondary-content h2 {
+    color: #164D6B;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hr4 {
+    width: 30%;
+    height: 3px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2C86BB;
+    position: relative;
+    top: 80px;
+}
+
+.galery-img {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.galery-img-first-container img {
+    width: 100%;
+    height: 700px;
 }
